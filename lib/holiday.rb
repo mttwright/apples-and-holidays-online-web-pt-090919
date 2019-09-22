@@ -31,8 +31,8 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_hash.each do |season, holiday|
     if season == "Winter"
       holiday.each do |holiday, stuff|
-        binding.pry
         stuff.push(supply)
+        binding.pry
       end
     end
   end
@@ -76,7 +76,7 @@ def all_holidays_with_bbq(holiday_hash)
 end
 
 
-
+add_supply_to_winter_holidays
 
 
 
