@@ -29,10 +29,9 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # Christmas AND the New Year's arrays
 
   holiday_hash.each do |season, holiday|
-    binding.pry
     if season == "Winter"
-      binding.pry
       holiday.each do |holiday, stuff|
+        binding.pry
         stuff.push(supply)
         binding.pry
       end
