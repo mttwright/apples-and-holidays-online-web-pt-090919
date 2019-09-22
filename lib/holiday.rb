@@ -69,6 +69,8 @@ def all_winter_holiday_supplies(holiday_hash)
     collection.push(supplies)
     binding.pry
   end
+  collection.join
+  binding.pry
     
     
 end
