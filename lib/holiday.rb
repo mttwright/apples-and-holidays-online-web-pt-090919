@@ -94,7 +94,6 @@ holiday_hash = {
    
    
 
-add_supply_to_winter_holidays(holiday_hash, "bbqs")
 
 
 
