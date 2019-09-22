@@ -29,6 +29,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # Christmas AND the New Year's arrays
 
   holiday_hash.each do |season, holiday|
+    binding.pry
     if season == "Winter"
       binding.pry
     end
@@ -73,24 +74,6 @@ def all_holidays_with_bbq(holiday_hash)
 end
 
 
-holiday_hash = {
-     :winter => {
-       :christmas => ["Lights", "Wreath"],
-       :new_years => ["Party Hats"]
-     },
-     :summer => {
-       :fourth_of_july => ["Fireworks", "BBQ"]
-     },
-     :fall => {
-       :thanksgiving => ["Turkey"]
-     },
-     :spring => {
-       :memorial_day => ["BBQ"]
-     }
-   }
-   
-   
-add_supply_to_winter_holidays(holiday_hash, "ham")
 
 
 
